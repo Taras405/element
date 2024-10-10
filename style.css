@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.element-box {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item1,
+.menu-item2 {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+
+.menu-item1 {
+    background: linear-gradient(135deg, #00aaff, #7b2cbf);
+    border-top-left-radius: 5px;
+    margin-left: -144px;
+    margin-top: -80px;
+    padding-top: 10px;
+}
+
+.menu-item2 {
+    background: linear-gradient(135deg, #ff7eb3, #ff5a3c);
+    border-bottom-right-radius: 5px;
+    margin-left: 185px;
+    margin-top: 20px;
+}
+
+.menu-item2 h2 {
+    margin-bottom: -20px;
+}
+
+.menu-item1:hover,
+.menu-item2:hover {
+    transition: 0.5s ease-in;
+}
+
+.menu-item1:hover {
+    margin-left: -320px;
+}
+
+.menu-item2:hover {
+    margin-left: 400px;
+}
+
+.button {
+    position: relative;
+    background: linear-gradient(135deg, #00aaff, #7b2cbf);
+    padding: 40px 60px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3),
+        0 4px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+
+.button:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6),
+        0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: 0.4s ease;
+}
+
+.submenu {
+    gap: 15px;
+    padding-left: 20px;
+    margin-left: -10px;
+}
+
+.submenu1 li {
+    margin-left: 25px;
+}
+
+.submenu li a {
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.submenu:nth-child(2) li a:hover {
+    color: #ff5a3c;
+    transition: 0.2s ease-in;
+}
+
+.submenu:nth-child(1) li a:hover {
+    color: #00aaff;
+    transition: 0.2s ease-in;
+}

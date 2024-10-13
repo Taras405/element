@@ -60,7 +60,7 @@ a {
 
 .menu-item1:hover,
 .menu-item2:hover {
-    transition: 0.5s ease-in;
+    transition: 500ms linear;
 }
 
 .menu-item1:hover {
@@ -90,7 +90,7 @@ a {
 .button:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6),
         0 4px 20px rgba(0, 0, 0, 0.3);
-    transition: 0.4s ease;
+    transition: 240ms linear;
 }
 
 .submenu {
@@ -106,14 +106,15 @@ a {
 .submenu li a {
     font-weight: 200;
     font-size: 15px;
+    color: rgb(68, 68, 68);
 }
 
 .submenu:nth-child(2) li a:hover {
     color: #ff5a3c;
-    transition: 0.2s ease-in;
+    transition: 240ms linear;
 }
 
 .submenu:nth-child(1) li a:hover {
     color: #00aaff;
-    transition: 0.2s ease-in;
+    transition: 240ms linear;
 }
